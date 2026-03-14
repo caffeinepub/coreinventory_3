@@ -80,25 +80,6 @@ export default function Signup({ onSignup, onGoLogin }: SignupProps) {
                 "radial-gradient(circle, oklch(0.35 0.18 264 / 0.14) 0%, transparent 70%)",
             }}
           />
-          <svg
-            aria-hidden="true"
-            className="absolute inset-0 w-full h-full opacity-[0.06]"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <defs>
-              <pattern
-                id="dots-signup"
-                x="0"
-                y="0"
-                width="28"
-                height="28"
-                patternUnits="userSpaceOnUse"
-              >
-                <circle cx="1.5" cy="1.5" r="1.5" fill="white" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#dots-signup)" />
-          </svg>
         </div>
 
         <div className="relative z-10">

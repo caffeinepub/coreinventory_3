@@ -129,10 +129,6 @@ export default function Login({ onLogin }: LoginProps) {
           "linear-gradient(145deg, oklch(0.14 0.09 292) 0%, oklch(0.10 0.06 288) 55%, oklch(0.08 0.04 284) 100%)",
       }}
     >
-      <div
-        className="absolute inset-0 pointer-events-none auth-pattern"
-        aria-hidden="true"
-      />
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <div
           className="absolute top-[-15%] right-[-15%] w-[600px] h-[600px] rounded-full"
@@ -146,33 +142,6 @@ export default function Login({ onLogin }: LoginProps) {
           style={{
             background:
               "radial-gradient(circle, oklch(0.72 0.18 195 / 0.15) 0%, transparent 65%)",
-          }}
-        />
-        <svg
-          aria-hidden="true"
-          className="absolute inset-0 w-full h-full opacity-[0.07]"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <pattern
-              id="dots-login"
-              x="0"
-              y="0"
-              width="26"
-              height="26"
-              patternUnits="userSpaceOnUse"
-            >
-              <circle cx="1.5" cy="1.5" r="1.5" fill="white" />
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#dots-login)" />
-        </svg>
-        <div
-          className="absolute inset-0 opacity-[0.04]"
-          style={{
-            backgroundImage:
-              "linear-gradient(oklch(1 0 0) 1px, transparent 1px), linear-gradient(90deg, oklch(1 0 0) 1px, transparent 1px)",
-            backgroundSize: "64px 64px",
           }}
         />
       </div>
