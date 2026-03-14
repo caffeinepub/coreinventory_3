@@ -100,7 +100,7 @@ export default function Sidebar({ user, onLogout, onNavigate }: SidebarProps) {
           <img
             src="/assets/generated/stockflow-logo-transparent.dim_400x100.png"
             alt="StockFlow"
-            className="h-28 w-auto object-contain"
+            className="h-40 w-auto object-contain"
           />
         </div>
       </div>

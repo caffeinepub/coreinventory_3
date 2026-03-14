@@ -105,7 +105,7 @@ export default function Signup({ onSignup, onGoLogin }: SignupProps) {
           <img
             src="/assets/generated/stockflow-logo-transparent.dim_400x100.png"
             alt="StockFlow"
-            className="h-32 w-auto object-contain"
+            className="h-44 w-auto object-contain"
           />
         </div>
 
@@ -173,7 +173,7 @@ export default function Signup({ onSignup, onGoLogin }: SignupProps) {
           <img
             src="/assets/generated/stockflow-logo-transparent.dim_400x100.png"
             alt="StockFlow"
-            className="h-28 w-auto object-contain"
+            className="h-40 w-auto object-contain"
           />
         </div>
 
